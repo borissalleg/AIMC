@@ -30,7 +30,7 @@ nav{
             -moz-border-radius:5px;/*Firefox*/
             -o-border-radius:5px;/*Opera*/
             border-radius:5px;/*Estandar por defecto*/
-            float:left;
+          /*  float:left;
                   
             font-size:14px;
             /*font-weight:bold;*/
