@@ -10,7 +10,8 @@
         border: px solid;
         box-shadow: 1px 15px 15px 1px;
         border-radius: 40px 40px 10px 10px;
-       
+        
+		
     }
         .wrap-quehacemos-titulo
         {
@@ -89,10 +90,17 @@
 }
 
 
-@media only screen and (max-width: 1020px) {
-    .articulo-quehacemos {margin-left: 28%; width: 45%;}
+@media only screen and (max-width: 720px) {
+	.wrap-quehacemos
+	   {width:100%; }
+    .articulo-quehacemos 
+	{  width: 95%;
+		
+	   margin : -300px 10px 0 15px; }
     .wrap-quehacemos-imagen{display: none}    
     .wrap-quehacemos-titulo{font-size: 25px;}
-    .articulo1{width: 100%; margin-botton: 20px;}
+	.wrap-banner{width: 100%; margin:120px 0;}
+	
+    .articulo1{width: 100%; }
     .articulo2{width: 100%;}
 }
